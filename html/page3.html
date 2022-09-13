@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Submit Your Predictions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="page2.html">Events</a>
+      <a href="page3.html">Make Predictions</a>
+      <a href="page4.html">Unpredictable</a>
+    </div>
+
+    <h1>Submit Your Predictions</h1>
+    <form action="http://www.example.com/review.php" method="get">
+      <fieldset>
+        <legend class="question">
+          About You:
+        </legend>
+        <label>
+          Name:
+          <input type="text" name="name" size="30" maxlength="100">
+        </label>
+        <br>
+        <br>
+        <label>
+          Email:
+          <input type="email" name="email" size="30" maxlength="100">
+        </label>
+        <br>
+        <br>
+        <label>
+          Occupation:
+          <input type="email" name="email" size="30" maxlength="100">
+        </label>
+      </fieldset>
+      <br>
+      <br>
+      <fieldset>
+        <legend class="question">
+          Your Predictions:
+        </legend>
+        <p>
+          <label for="hear-about">
+            What date you are predicting for?
+          </label>
+          <input type="date" min="2022-09-13"/>
+
+        </p>
+        <p>
+          <label for="description">
+            Description:
+          </label>
+          <br />
+          <textarea rows="4" cols="40" id="description">
+          </textarea>
+        </p>
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <br id="before footer">
+  </body>
+
+  <footer>
+    <p>An Assignment for Mobile​ ​Web​ ​Design​ ​&​ ​Development​ ​(67-240)</p>
+    <p>Author: Sen Feng</p>
+    <p><a href="mailto:senf@andrew.cmu.edu">senf@andrew.cmu.edu</a></p>
+  </footer>
+</html>
