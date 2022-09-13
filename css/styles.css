@@ -81,6 +81,10 @@ input[type=submit] {
     color: black;
 }
 
+iframe{
+    border-radius: 8px;
+}
+
 [id="before footer"]{
     display: block;
     content: "";
